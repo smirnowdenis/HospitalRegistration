@@ -1,7 +1,7 @@
 spring:
   datasource:
-#    url: jdbc:postgresql://postgres:5432/hospital
-    url: jdbc:postgresql://localhost:5432/hospital
+    url: jdbc:postgresql://postgres:5432/hospital
+#    url: jdbc:postgresql://localhost:5432/hospital
     username: admin
     password: password
     driver-class-name: org.postgresql.Driver
