@@ -2,7 +2,6 @@ package com.company.hospital.dao;
 
 import java.time.LocalDate;
 
-import com.fasterxml.jackson.annotation.JsonManagedReference;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -33,7 +32,6 @@ public class Registration {
 
     @ManyToOne
     @JoinColumn(name = "doctor_id")
-    @JsonManagedReference
     private Doctor doctor;
 
     @Column(name = "visit_date")
