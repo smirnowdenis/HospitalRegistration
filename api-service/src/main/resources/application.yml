@@ -1,0 +1,16 @@
+spring:
+  kafka:
+    bootstrap-servers: kafka:9092
+#    bootstrap-servers: localhost:9092
+
+application:
+  data-service:
+    url: data-service:8081
+#    url: localhost:8081
+
+kafka:
+  registration-topic: "registration_topic"
+  group-id: "groupId"
+
+server:
+  port: 8080

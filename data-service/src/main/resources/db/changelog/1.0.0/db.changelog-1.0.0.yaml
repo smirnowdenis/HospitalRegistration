@@ -1,0 +1,12 @@
+databaseChangeLog:
+  - changeSet:
+      id: create_structure
+      author: Turin
+      changes:
+        - sqlFile:
+            dbms: postgresql
+            encoding: utf8
+            path: db/changelog/1.0.0/create_structure.sql
+            relativeToChangelogFile: false
+            splitStatements: true
+            stripComments: true
